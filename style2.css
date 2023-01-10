@@ -1,0 +1,285 @@
+body {
+    font-family: 'Georgia', serif;
+    font-weight: 400;
+    background-color: #faedcd;
+}
+
+h1, h2, h3, h4, h5, h6 p {
+    font-family: 'Georgia', sans-serif;
+    font-weight: 700;;
+}
+
+.background-color body {
+    color:#fefae0;
+}
+
+.name h1 {
+    color: #d2d5b5;
+    /* text-decoration: underline; */
+    border-bottom: .25em dotted #d4a373;
+    text-decoration-thickness: .25em;
+    text-decoration-color: #d4a373;
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: auto;
+    font-size: 10em;
+    margin: .2em;
+    transition-duration: .5s;
+}
+
+.name h1:hover {
+    color: #d4a373;
+    text-decoration-color: #d2d5b5;
+    border-bottom: .25em dotted #d2d5b5;
+    /* transition-duration: .5s; */
+}
+
+.container {
+    text-align: center;
+  }
+
+.headshot {
+    width: 13em;
+    height: 13em;
+    display: inline;
+    
+}
+
+#heads {
+    background-color: #fefae0;
+    width: 100%;
+}
+.headshot img {
+    width: 13em;
+    height: 13em;
+    border: .25em solid;
+    border-color: #d2d5b5;
+    border-radius: 13em;
+    vertical-align: middle;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    margin-bottom: 1.5em;
+    transition-duration: .5s;
+    
+
+}
+
+.headshot img:hover {
+    transform: scale(2);
+    
+}
+
+hr {
+    border-top: .5em dotted #d4a373;
+}
+
+
+.text-headers a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    border-radius: 12.5em;
+    background: #d2d5b5;
+    padding: 1.25em; 
+    width: 12.5em;
+    height: 4em; 
+    vertical-align: middle;
+    justify-content: space-between;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    transition-duration: .5s;
+
+    
+}
+
+#main-paragraph {
+    line-height: 3em;
+    font-weight: 200;
+}
+
+.text-headers {
+    text-align: center;
+    display: inline-block;
+    justify-content: space-around;
+    margin-bottom: 1em;
+}
+
+
+#footer {
+    background-color:#d4a373;
+    border: #d2d5b5;
+    
+}
+
+
+.link-footers  {
+    text-align: center;
+    color: #d4a373;
+    padding: 1em;
+    margin: 0em;
+    border-radius: 1.5em;
+}
+
+.link-footers img {
+    margin-left: 3em;
+    margin-right: 3em;
+    border-radius: .625em;
+    background: #fefae0;
+    border-color: #d2d5b5;
+    padding: 1.25em; 
+    width: 1.5em;
+    height: 1.5em; 
+    vertical-align: middle;
+    display: inline-block;
+    transition-duration: .5s;
+
+}
+
+.link-footers img:hover {
+    transform: scale(1.25);
+    background: #d4a373;
+    
+}
+
+
+.body-paragraph p {
+    color: #362419;
+    margin-top: 3em;
+    margin-right: 5em;
+    margin-left: 5em;
+    font-family: 'Garamond', sans-serif;
+    font-size: x-large;
+}
+
+/* style the image within the body paragraph class to match the other images and objects on the page */
+.body-paragraph img {
+    width: 13em;
+    height: 13em;
+    border: .25em solid;
+    border-color: #d2d5b5;
+    /* border-radius: 13em; */
+    vertical-align: middle;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    margin-bottom: 1.5em;
+    transition-duration: .5s;
+}
+/* create a styling for a button that matches the styling of this css file */
+.button {
+    background-color: #d2d5b5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+/* style the class resume that matches the rest of the text styling */
+.resume h3 {
+    color: white;
+    font-family: 'Karla', sans-serif;
+    font-size: large;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    border-radius: 1.5em;
+    background: #d2d5b5;
+    padding: 1.25em; 
+    width: 12.5em;
+    height: 1.5em; 
+    vertical-align: middle;
+    justify-content: space-between;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    transition-duration: .5s;
+}
+
+.resume h3:hover {
+    background-color: #d4a373;
+    color: #d2d5b5;
+    font-size: x-large;
+}
+
+/* match the button within container with the style of text-header a */
+.container button {
+   /* Match the style of other things within the container class */
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    border-radius: 1.5em;
+    background: #d2d5b5;
+    padding: 1.25em; 
+    width: 12.5em;
+    height: 4em; 
+    vertical-align: middle;
+    justify-content: space-between;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    font-size: larger;
+    transition-duration: .5s;
+}
+
+.container button:hover {
+    background: #d4a373;
+    color: #d2d5b5;
+    transform: scale(1.25);
+    
+}
+
+.side-by-side>* {
+    float: right;
+    margin-right: 5px;
+}
+
+/* increase font and change background color of text-headers to pink on hover */
+.text-headers a:hover {
+    background-color: #d4a373;
+    color: #d2d5b5;
+    font-size: larger;
+}
+
+.text-headers button:hover {
+    background-color: #d4a373;
+    color: #d2d5b5;
+    /* font-size: larger; */
+}
+
+.body-paragraph img:hover {
+    transform: scale(2);
+    background: #d4a373;
+    
+}   
+
+
+
+.service-pics img:hover {
+    transform: scale(1.5);
+    background: #d4a373;
+    
+}
+
+#main-paragraph a {
+    text-decoration: none;
+    color: #362419;
+    font-weight: 700;
+    transition-duration: .5s;
+    text-decoration: underline;
+    text-decoration-color: #d4a373;
+}
+
+.small-texts h5 {
+    color: #362419;
+}
+
+.tag {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
